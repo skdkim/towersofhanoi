@@ -1,0 +1,38 @@
+* {
+  background-color: beige;
+}
+
+
+figure.hanoi {
+    /* border: solid; */
+}
+
+figure.hanoi > ul {
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    flex-direction: column-reverse;
+    position: relative;
+    padding-right: 50px;
+    padding-left: 50px;
+    /* float: left; */
+    height: auto;
+    margin-top: 100px;
+    vertical-align: bottom;
+}
+
+li {
+}
+
+li {
+    list-style-type: none;
+    vertical-align: middle;
+}
+
+figure {
+    height: 200px;
+}
+
+body {
+    border: solid;
+}

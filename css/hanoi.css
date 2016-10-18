@@ -1,0 +1,33 @@
+* {
+  background-color: beige;
+}
+
+
+body {
+    /* display: flex; */
+}
+
+figure.hanoi {
+    display: flex;
+    /* float: left; */
+    height: 150px;
+    align-content: flex-end;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    flex-grow: 1;
+    height: 18px;
+    align-self: flex-end;
+    margin: 20px;
+    background-color: blue;
+}
+
+h1 {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+li {list-style: none;background-color: gray;margin: 5px;border-radius: 10px;margin-left: -2em;}
